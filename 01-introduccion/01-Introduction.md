@@ -34,14 +34,21 @@ After data is ingested, it needs to be processed.
 
 **Dataproc** can be used to batch process data, **Dataflow** to stream data, or **Cloud Data Fusion** to integrate data from multiple sources.
 
+### **Store**
 
+Google Cloud storage options include **databases**, **data lakes**, and **data warehouses.**
 
+**Google Cloud storage products include:** Cloud Storage, Cloud SQL, Cloud Spanner, Bigtable, Firestore, AlloyDB for PostgreSQL, and BigQuery.
 
+**Cloud SQL, Cloud Spanner, and AlloyDB** for PostgreSQL are relational databases, whereas **Bigtable and Firestore** are NoSQL databases.
 
+**BigQuery** is Google Cloud’s data warehouse solution.
 
+### **Analyze**
 
+BigQuery is at the core of data analytics on Google Cloud.
 
-
+In addition to BigQuery, you can analyze data and visualize results by using **Looker** And **Looker Studio.** 
 
 </p>
 
