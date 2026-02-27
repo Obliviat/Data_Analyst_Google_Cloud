@@ -7,5 +7,5 @@ This module of the Introduction to Data Analytics on Google Cloud course examine
 The data analytics lifecycle provides a framework for organizing the different steps involved in data analytics. This framework can help to ensure that the necessary steps are taken, and that they are taken in the correct order.
 Storing, managing, and organizing your data is the foundation for data analytics on Google Cloud.
 
-![](Images/lifecycle.png)
+![](../images/lifecycle.png)
 
