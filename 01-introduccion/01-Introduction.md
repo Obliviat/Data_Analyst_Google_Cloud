@@ -9,4 +9,4 @@ Storing, managing, and organizing your data is the foundation for data analytics
 
 ![](../images/lifecycle.png)
 
-hola esto es nuevo 
+hola esto es nuevo nuevamente este es nuevo 
