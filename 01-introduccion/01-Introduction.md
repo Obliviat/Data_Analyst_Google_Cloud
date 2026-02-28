@@ -116,6 +116,8 @@ A dashboard is a series of saved reports, all on one page.
 
 In addition to Looker, you can use **Looker Studio** to visualize your data.
 
+![Lifecycle](../images/Looker.png)
+
 Looker Studio features less analytics functionality and focuses more on a simple, easy to use interface for data visualization.
 
 Looker Studio offers several features that make it easy to share and collaborate on reports.
