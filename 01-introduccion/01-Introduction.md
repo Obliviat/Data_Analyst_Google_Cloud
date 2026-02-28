@@ -113,6 +113,29 @@ If you notice some interesting insights or trends in your data, you can save you
 A Look is a single, saved report or visualization.
 Looks typically answer an individual data question, and they can be added to a dashboard.
 A dashboard is a series of saved reports, all on one page.
+
+In addition to Looker, you can use **Looker Studio** to visualize your data.
+
+Looker Studio features less analytics functionality and focuses more on a simple, easy to use interface for data visualization.
+
+Looker Studio offers several features that make it easy to share and collaborate on reports.
+
+You can publish reports to the web, and you can also embed reports in other applications.
+
+The benefits of using Looker Studio for data visualizations include: 
+
+- A drag-and-drop interface that makes it easy to create reports and dashboards.
+
+- Various reports and dashboards, including charts, graphs, and tables.
+
+- Powerful features that let you create professional-looking reports, such as the ability to add filters and drill down into data.
+
+- Real-time collaboration on reports and dashboards.
+
+- And security features that let you control who has access to your data.
+
+Looker and Looker Studio can be integrated using the Looker connector for Looker Studio.
+
 </p>
 
 
