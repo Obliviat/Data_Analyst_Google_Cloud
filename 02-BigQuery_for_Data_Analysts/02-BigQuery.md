@@ -128,4 +128,29 @@ Dataform’s framework lets you do all the things you want like create table def
 
 ![Lifecycle](../images/code_dataform.png)
 
+
+## BigQuery Studio.
+
+Based on recent research, organizations that are effective at using data and AI are more profitable than their competitors, and see improved performance across a variety of business metrics. However, many organizations are still struggling to extract the full business value of data.
+
+And while BigQuery is built on a unified, open, intelligent data ecosystem, data practitioners still face many challenges.
+
+![Lifecycle](../images/data_challanges.png)
+
+With BigQuery Studio, you now have a single interface for all your data to AI workflows in BigQuery Studio with the scalability of BigQuery in the data science notebook.
+
+For example, analytics users like data scientists can now use Python in a familiar Colab notebook environment for data analysis and exploration at a petabyte scale right inside BigQuery.
+
+
+![Lifecycle](../images/bigquery_studio.png)
+
+![Lifecycle](../images/Bigquery_course.png)
+
+
+For more information: [Link](https://cloud.google.com/bigquery/docs)
+
+
+
+
+
 </p>
