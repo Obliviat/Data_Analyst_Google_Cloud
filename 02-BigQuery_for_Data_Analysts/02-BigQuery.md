@@ -56,15 +56,76 @@ This topic contains all functions supported by GoogleSQL for BigQuery. [Link](ht
 
 
 ## Cleaning and Transforming your Data
+One of the most critical parts of data analysis happens way before you build your first visualization. And while not necessarily the most glamorous, data preparation and transformation can't be ignored.
+Mostly you will use SQL and data preparation tools for this crucial step.
+
+**5 Principles of dataset integrity**
+The majority of data quality lectures will have one central theme: Garbage in, garbage out.
+So if you want to build amazing machine learning models, you can't feed them with garbage.
+
+![Lifecycle](../images/quality_data.png)
 
 
+## Ingesting and Storing New BigQuery Datasets
+
+![Lifecycle](../images/ingesting_data.png)
+
+**EL**, or **Extract and Load**, is used when data is imported as-is, where the source and target have the same schema.
+
+**ELT**, or **Extract, Load, Transform**, is used when raw data will be loaded directly into the target and transformed there.
+
+**ETL**, or **Extract, Transform, Load**, is used when transformation occurs in an intermediate service before it is loaded into the target.
+
+![Lifecycle](../images/sources_data.png)
+
+When EL or ELT is preferred, BigQuery can ingest datasets from a variety of different formats.
+
+Once data is inside BigQuery native storage, it is fully managed by the BigQuery team at Google.
+
+Sometimes, the transformations are rather complex, and large enough in number that ETL may be the best option.
+
+In such cases, you can always use services like Cloud Data Fusion, Dataflow, or Dataproc to build your pipelines and code the transformations that need to be applied first before the data is loaded into a target destination like BigQuery.
+
+**External data sources** 
+An external data source is a data source that you can query directly from BigQuery, even though the data is not stored in BigQuery storage.
+
+## Visualizing Your Insights from BigQuery
+
+One of the key outputs that data analysts create are insightful reports for their audience.
+
+![Lifecycle](../images/Visualization.png)
+
+Your visuals and reports often carry more visual weight than your SQL scripts and analysis.
+One of the core concepts that you will come across in many visualization tools is dimensions versus measures.
+
+![Lifecycle](../images/measure.png)
+One of the core concepts that you will come across in many visualization tools is dimensions versus measures.
+These concepts are built into how visualization tools create informative and insightful visualizations.
+
+**Looker Studio**
+
+![Lifecycle](../images/looker_vs_lookerstudio.png)
 
 
+Looker is a business intelligence software and big data analytics platform that helps users explore, analyze, and share real-time business analytics.
 
+Looker Studio, formerly known as Data Studio, is a web interface that makes it easy to create interactive dashboards and reports from a wide variety of sources, driving smarter business decisions.
 
+## Developing Scalable Data Transformation Pipelines in BigQuery with Dataform.
 
+Dataform helps data teams build, version control, and orchestrate SQL pipelines in BigQuery.
+We are seeing a trend where organizations are slowly moving from an ETL approach, with their pipelines in dedicated ETL tools and environments like Spark, to an ELT approach, with SQL pipelines in BigQuery.
 
+![Lifecycle](../images/data_form.png)
 
+With **dataform**, you can develop and operationalize scalable data transformation pipelines in BigQuery using SQL.
 
+The framework enables data teams to build a central data model, a single source of truth, with tables that are curated, continuously updated, documented, and tested without managing infrastructure.
+
+![Lifecycle](../images/dataform1.png)
+
+Dataform’s framework lets you do all the things you want like create table definitions, assert data quality, document tables, and so on, all in a single environment and without additional dependencies.
+
+![Lifecycle](../images/code_dataform.png)
 
 </p>
