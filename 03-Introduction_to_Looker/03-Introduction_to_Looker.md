@@ -105,9 +105,7 @@ Essentially, Gemini assists you with various tasks within Looker, including writ
 
 **Conversational analytics in Looker**
 
-<img src="../images/looker_conversation.png" style="max-width:400px; height:auto;">
-</p>
-#![looker](../images/looker_conversation.png)
+  <img src="../images/looker_conversation.png" alt="looker" width="400">
 
 Conversational analytics is a Gemini-powered feature that empowers users of all skill levels to ask questions about their data in natural language, instead of writing complex SQL queries.
 Gemini interprets these questions and retrieves the relevant data from Looker to provide clear and concise answers, often including helpful visualizations and supporting data tables.
@@ -122,7 +120,33 @@ Self-service dashboarding and reporting empowers users at all levels of an organ
 Instead of submitting requests and waiting for reports, individuals can create their own dashboards and reports using governed or personal data, or a blend of both, to answer specific business questions.
 
 
-## External Analytics and Embedding.
+## External Analytics and Embedding
+
+**External analytics** refers to the practice of providing data insights and reports to individuals or groups who are not direct users within your Looker instance.
+
+The goal is to extend the reach of your data beyond your internal team, enabling informed decision-making across a broader audience.
+
+When external parties have access to customized dashboards and reports, they can make more informed decisions related to your products, services, or joint ventures.
+
+**How Embedding Looker**
+
+Embedding Looker refers to the process of integrating Looker dashboards, explores, or looks directly into other applications, websites, or business intelligence platforms.
+This means your users don't need to navigate to Looker to access the data. Instead, the data comes to them right within the environment they already use.
+
+Instead of providing a link to a separate Looker report, you can display that report directly within your customer portal, your internal company dashboard, or even a partner application.
+
+**At a high level, Looker embedding typically works by utilizing an HTML iframe or through a more advanced JavaScript API.**
+
+The iframe method is straightforward, allowing you to simply embed a Looker URL within a frame on your web page.
+
+For more robust and interactive integrations, the Looker Embed SDK allows developers to programmatically control the embedded content.
+
+
+
+
+
+
+
 
 
 
