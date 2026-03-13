@@ -1,4 +1,4 @@
-<p align="justify">
+<p align="justify",> 
 
 ![looker](../images/introduction_looker.png)
 
@@ -105,7 +105,8 @@ Essentially, Gemini assists you with various tasks within Looker, including writ
 
 **Conversational analytics in Looker**
 
-![looker](../images/looker_conversation.png)
+  <img src="../images/looker_conversation.png" alt="looker" width="700">
+#![looker](../images/looker_conversation.png)
 
 Conversational analytics is a Gemini-powered feature that empowers users of all skill levels to ask questions about their data in natural language, instead of writing complex SQL queries.
 Gemini interprets these questions and retrieves the relevant data from Looker to provide clear and concise answers, often including helpful visualizations and supporting data tables.
@@ -120,7 +121,7 @@ Self-service dashboarding and reporting empowers users at all levels of an organ
 Instead of submitting requests and waiting for reports, individuals can create their own dashboards and reports using governed or personal data, or a blend of both, to answer specific business questions.
 
 
-
+## External Analytics and Embedding.
 
 
 
