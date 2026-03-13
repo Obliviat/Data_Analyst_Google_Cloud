@@ -105,7 +105,8 @@ Essentially, Gemini assists you with various tasks within Looker, including writ
 
 **Conversational analytics in Looker**
 
-  <img src="../images/looker_conversation.png" alt="looker" width="400">
+<img src="../images/looker_conversation.png" style="max-width:400px; height:auto;">
+</p>
 #![looker](../images/looker_conversation.png)
 
 Conversational analytics is a Gemini-powered feature that empowers users of all skill levels to ask questions about their data in natural language, instead of writing complex SQL queries.
