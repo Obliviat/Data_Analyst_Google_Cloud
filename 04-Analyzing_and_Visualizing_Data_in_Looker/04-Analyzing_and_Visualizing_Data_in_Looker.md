@@ -60,6 +60,29 @@ Data & time functions operate on datetime results, and logical functions can be 
 
 In summary, table calculations allow you to create new metrics instantaneously and are incredibly useful for prototyping new metrics or creating one-off visualizations.
 
+**Offset functions** are a subset of table calculation functions. They allow you to programmatically reference values from other rows or columns in your query results to calculate new values.
+There are three main types of offset functions-- regular offset, offset_list, and pivot_offset. 
+
+A **regular offset** function is used when you want to reference a value from a higher or lower row of your results. Note that changing the order of the rows by sorting your results can turn the previous row into the subsequent row, and vice versa. 
+
+The **pivot_offset** function is used to reference values from a column to the left or the right when you have a pivot table.
+
+The **offset_list** function moves up or down a column of rows defined by a first provided value and then grabs a number of rows worth of data defined by a second provided value. The two numbers can be the same or different, depending on the results you want.
+
+### Creating new Looker content
+
+Looker provides many ways for you to analyze, visualize, and share your data. If you're looking to create a report that answers one specific question of your data, you should consider **creating a Look**, which is a single standalone report in Looker.
+
+Once created, a Look can be saved, favorited, shared, or even scheduled for regular delivery.
+
+In Looker, dashboards can be used to combine individual visualizations, which are referred to as tiles on the dashboard.
+
+Just like a **look** is a single visualization designed to answer one specific data-related question, a dashboard usually contains multiple visualizations and is designed to answer multiple data-related questions.
+
+### Sharing Looker data with others
+
+Anytime you want to share or export content from Looker, we call that “data delivery.” You can deliver data from Looks, Explores, or dashboards, and to make it easy for you, the process for each is very similar.
+
 
 
 
