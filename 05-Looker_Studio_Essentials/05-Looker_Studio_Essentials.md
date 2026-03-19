@@ -59,3 +59,17 @@ Looker Studio supports the following join operators.
  <img src="../images/Join.png" alt="looker" width="400">
 
  ## Adding Interactivity and Exploring Data
+
+ Looker Studio offers several types of controls.
+
+ The first set of controls, drop-down list, fixed size list, input box, advanced filter, slider, checkbox, and preset filter can filter data or set parameter values.
+
+ The second set, date range control, data control, dimension control, and button performs specialized functions and cannot set parameter values.
+
+ Generally, search operators for text dimensions are case-sensitive, though this varies by connectors.
+
+ **How quick filters and buttons in Looker Studio add interactivity to reports**
+
+ Quick filters provide a flexible ad hoc way to explore your data. They allow you to easily change how the report data is filtered without affecting the report configuration for other users.
+
+ 
